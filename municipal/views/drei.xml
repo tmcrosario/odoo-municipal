@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- TREE VIEW -->
+    <record id="municipal.drei_tree_view" model="ir.ui.view">
+        <field name="name">municipal.drei.tree</field>
+        <field name="model">municipal.drei</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="account" />
+                <field name="management_code" />
+                <field name="business_category_ids" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- FORM VIEW -->
+    <record id="municipal.drei_form_view" model="ir.ui.view">
+        <field name="name">municipal.drei.form</field>
+        <field name="model">municipal.drei</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field name="account" />
+                    </group>
+                    <group>
+                        <field name="management_code" />
+                    </group>
+                </group>
+                <group>
+                    <field name="business_category_ids" options="{'no_create': True}" />
+                </group>
+            </form>
+        </field>
+    </record>
+
+</odoo>
