@@ -24,6 +24,7 @@ class Drei(models.Model):
     )
 
     partner_id = fields.Many2one(
+        string='Merchant',
         comodel_name='res.partner',
         domain=[('merchant', '=', 'True')],
         required=True
