@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Municipal Taxes and Business Categories',
+    'name': 'TMC Municipal Taxes and Business Categories',
     'version': '10.0.1.0.0',
     'depends': [],
     'data': [
