@@ -3,6 +3,7 @@
 {
     'name': 'TMC Municipal Taxes and Business Categories',
     'version': '10.0.1.0.0',
+    'author': 'Tribunal Municipal de Cuentas - Municipalidad de Rosario',
     'depends': [],
     'data': [
         'views/drei.xml',
