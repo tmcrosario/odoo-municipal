@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record model="ir.module.category" id="module_category_municipal">
+    <record model="ir.module.category"
+            id="module_category_municipal">
         <field name="name">Municipal</field>
-        <!-- <field name="description">Sistema de Concesiones Generales</field> -->
         <field name="sequence">2</field>
     </record>
 
-    <record id="group_user" model="res.groups">
+    <record id="group_user"
+            model="res.groups">
         <field name="name">User</field>
-        <field name="users" eval="[(4, ref('base.user_root'))]" />
-        <field name="category_id" ref="module_category_municipal" />
+        <field name="users"
+               eval="[(4, ref('base.user_root'))]" />
+        <field name="category_id"
+               ref="module_category_municipal" />
     </record>
 
-    <record id="group_manager" model="res.groups">
+    <record id="group_manager"
+            model="res.groups">
         <field name="name">Manager</field>
-        <field name="users" eval="[(4, ref('base.user_root'))]" />
-        <field name="category_id" ref="module_category_municipal" />
-        <field name="implied_ids" eval="[(4,ref('group_user'))]" />
+        <field name="users"
+               eval="[(4, ref('base.user_root'))]" />
+        <field name="category_id"
+               ref="module_category_municipal" />
+        <field name="implied_ids"
+               eval="[(4,ref('group_user'))]" />
+    </record>
+
+    <record id="group_read_only"
+            model="res.groups">
+        <field name="name">Read Only</field>
+        <field name="users"
+               eval="[(4, ref('base.user_root'))]" />
+        <field name="category_id"
+               ref="module_category_municipal" />
     </record>
 
 </odoo>
