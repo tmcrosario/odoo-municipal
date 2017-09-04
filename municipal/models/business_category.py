@@ -3,7 +3,7 @@
 from odoo import models, fields, _
 
 
-class Business_Category(models.Model):
+class BusinessCategory(models.Model):
 
     _name = 'municipal.business_category'
 
