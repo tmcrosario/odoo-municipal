@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
+    <!-- WINDOW ACTION -->
+    <record model="ir.actions.act_window"
+            id="drei_list_action">
+        <field name="name">DREI Accounts</field>
+        <field name="res_model">municipal.drei</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
     <!-- TREE VIEW -->
     <record id="municipal_drei_tree_view"
             model="ir.ui.view">

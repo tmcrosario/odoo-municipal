@@ -3,14 +3,14 @@
 # * municipal
 # 
 # Translators:
-# Liso <lisandrogallo@tmcrosario.gov.ar>, 2017
+# Lisandro <lisandrogallo@tmcrosario.gov.ar>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-11 12:29+0000\n"
-"PO-Revision-Date: 2017-07-11 12:29+0000\n"
-"Last-Translator: Liso <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
+"POT-Creation-Date: 2017-11-03 17:17+0000\n"
+"PO-Revision-Date: 2017-11-03 17:17+0000\n"
+"Last-Translator: Lisandro <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
 "Language-Team: Spanish (Argentina) (https://www.transifex.com/tmcrosario/teams/73663/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,6 +48,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:municipal.field_municipal_drei_create_date
 msgid "Created on"
 msgstr ""
+
+#. module: municipal
+#: model:ir.actions.act_window,name:municipal.drei_list_action
+#: model:ir.ui.menu,name:municipal.menu_drei_config
+msgid "DREI Accounts"
+msgstr "Cuentas de DREI"
 
 #. module: municipal
 #: model:ir.model.fields,field_description:municipal.field_municipal_business_category_display_name

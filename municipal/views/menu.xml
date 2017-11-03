@@ -12,4 +12,10 @@
               sequence="5"
               action="municipal.business_category_list_action" />
 
+    <menuitem id="menu_drei_config"
+              name="DREI Accounts"
+              parent="municipal.menu_municipal_config"
+              sequence="10"
+              action="municipal.drei_list_action" />
+
 </odoo>
