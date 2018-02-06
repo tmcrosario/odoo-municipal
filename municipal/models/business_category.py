@@ -11,6 +11,11 @@ class BusinessCategory(models.Model):
         required=True
     )
 
+    color = fields.Char(
+        default="0",
+        readonly=True
+    )
+
     _sql_constraints = [(
         'name_unique',
         'UNIQUE(name)',
