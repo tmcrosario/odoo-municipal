@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="municipal_menu_config"
+              name="Municipal"
+              parent="base.menu_administration"
+              sequence="95" />
+
+</odoo>

@@ -2,18 +2,17 @@
 <odoo>
 
     <!-- WINDOW ACTION -->
-    <record model="ir.actions.act_window"
-            id="drei_list_action">
+    <record id="drei_action_form"
+            model="ir.actions.act_window">
         <field name="name">DREI Accounts</field>
         <field name="res_model">municipal.drei</field>
-        <field name="view_type">form</field>
         <field name="view_mode">tree,form</field>
     </record>
 
     <!-- TREE VIEW -->
-    <record id="municipal_drei_tree_view"
+    <record id="municipal_drei_view_tree"
             model="ir.ui.view">
-        <field name="name">municipal.drei.tree</field>
+        <field name="name">municipal.drei.view.tree</field>
         <field name="model">municipal.drei</field>
         <field name="arch"
                type="xml">
@@ -26,9 +25,9 @@
     </record>
 
     <!-- FORM VIEW -->
-    <record id="municipal_drei_form_view"
+    <record id="municipal_drei_view_form"
             model="ir.ui.view">
-        <field name="name">municipal.drei.form</field>
+        <field name="name">municipal.drei.view.form</field>
         <field name="model">municipal.drei</field>
         <field name="arch"
                type="xml">
