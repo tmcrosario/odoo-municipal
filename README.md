@@ -2,10 +2,6 @@
 
 Odoo Municipal Taxes and Business Categories.
 
-## Translation Status
-
-[![Transifex Status](https://www.transifex.com/tmcrosario/odoo-municipal-10/)](https://www.transifex.com/tmcrosario/odoo-municipal-10/)
-
 ## License
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -16,4 +12,4 @@ You should have received a copy of the GNU Affero General Public License along w
 
 ----
 
-<img alt="TMC Rosario" src="http://www.tmcrosario.gov.ar/images/tmc_nuevo.png"/>
+<img src="https://www.tmcrosario.gob.ar/images/tmc_nuevo.png"/>
