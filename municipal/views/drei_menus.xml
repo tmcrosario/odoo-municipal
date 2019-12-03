@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <menuitem id="municipal_menu_config_drei"
+    <menuitem id="tmc_menu_config_municipal_drei"
               name="DREI Accounts"
-              parent="municipal_menu_config"
+              parent="tmc_menu_config_municipal"
               sequence="10"
               action="drei_action_form" />
 

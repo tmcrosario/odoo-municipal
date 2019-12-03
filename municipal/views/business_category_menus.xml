@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <menuitem id="municipal_menu_config_business_category"
+    <menuitem id="tmc_menu_config_municipal_business_category"
               name="Business Categories"
-              parent="municipal_menu_config"
+              parent="tmc_menu_config_municipal"
               sequence="5"
               action="business_category_action_form" />
 
