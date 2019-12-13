@@ -4,6 +4,7 @@ from odoo import models, fields, _
 class BusinessCategory(models.Model):
 
     _name = 'municipal.business_category'
+    _description = 'Business Category'
 
     name = fields.Char(required=True)
 

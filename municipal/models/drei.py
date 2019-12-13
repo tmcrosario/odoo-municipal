@@ -4,6 +4,7 @@ from odoo import models, fields
 class Drei(models.Model):
 
     _name = 'municipal.drei'
+    _description = 'DREI Account Information'
 
     account = fields.Char(size=10, required=True)
 
