@@ -1,89 +1,97 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * municipal
-# 
-# Translators:
-# Lisandro <lisandrogallo@tmcrosario.gov.ar>, 2017
+# 	* municipal
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-03 17:17+0000\n"
-"PO-Revision-Date: 2017-11-03 17:17+0000\n"
-"Last-Translator: Lisandro <lisandrogallo@tmcrosario.gov.ar>, 2017\n"
-"Language-Team: Spanish (Argentina) (https://www.transifex.com/tmcrosario/teams/73663/es_AR/)\n"
+"POT-Creation-Date: 2019-12-13 13:18+0000\n"
+"PO-Revision-Date: 2019-12-13 10:19-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
 "Language: es_AR\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_account
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__account
 msgid "Account"
 msgstr "Cuenta"
 
 #. module: municipal
-#: model:ir.actions.act_window,name:municipal.business_category_list_action
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_business_category_ids
-#: model:ir.ui.menu,name:municipal.menu_business_category_config
+#: model:ir.actions.act_window,name:municipal.business_category_action_form
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__business_category_ids
+#: model:ir.ui.menu,name:municipal.tmc_menu_config_municipal_business_category
 msgid "Business Categories"
 msgstr "Rubros"
 
 #. module: municipal
-#: code:addons/municipal/models/business_category.py:17
-#: sql_constraint:municipal.business_category:0
+#: code:addons/municipal/models/business_category.py:0
 #, python-format
 msgid "Business Category must be unique"
 msgstr "El rubro debe ser único"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_create_uid
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_create_uid
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__color
+msgid "Color"
+msgstr "Color"
+
+#. module: municipal
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__create_uid
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_create_date
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_create_date
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__create_date
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado el"
 
 #. module: municipal
-#: model:ir.actions.act_window,name:municipal.drei_list_action
-#: model:ir.ui.menu,name:municipal.menu_drei_config
+#: model:ir.actions.act_window,name:municipal.drei_action_form
+#: model:ir.ui.menu,name:municipal.tmc_menu_config_municipal_drei
 msgid "DREI Accounts"
 msgstr "Cuentas de DREI"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_display_name
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_display_name
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__display_name
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__display_name
 msgid "Display Name"
 msgstr "Nombre"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_id
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_id
+#: model:ir.model.constraint,message:municipal.constraint_municipal_business_category_name_unique
+msgid "El rubro debe ser único"
+msgstr "El rubro debe ser único"
+
+#. module: municipal
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__id
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__id
 msgid "ID"
 msgstr ""
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category___last_update
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei___last_update
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category____last_update
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última modificación en"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_write_uid
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_write_uid
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__write_uid
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última actualización por"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_write_date
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_write_date
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__write_date
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última actualización el"
 
 #. module: municipal
 #: model:res.groups,name:municipal.group_manager
@@ -91,23 +99,23 @@ msgid "Manager"
 msgstr "Responsable"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_partner_id
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__partner_id
 msgid "Merchant"
 msgstr "Comerciante"
 
 #. module: municipal
 #: model:ir.module.category,name:municipal.module_category_municipal
-#: model:ir.ui.menu,name:municipal.menu_municipal_config
+#: model:ir.ui.menu,name:municipal.tmc_menu_config_municipal
 msgid "Municipal"
-msgstr ""
+msgstr "Municipal"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_business_category_name
+#: model:ir.model.fields,field_description:municipal.field_municipal_business_category__name
 msgid "Name"
 msgstr "Nombre"
 
 #. module: municipal
-#: model:ir.model.fields,field_description:municipal.field_municipal_drei_management_code
+#: model:ir.model.fields,field_description:municipal.field_municipal_drei__management_code
 msgid "Personal Management Code"
 msgstr "Código de Gestión Personal"
 
