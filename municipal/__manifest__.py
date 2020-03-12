@@ -3,7 +3,9 @@
     'version': '13.0.1.0.0',
     'author': 'Tribunal Municipal de Cuentas - Municipalidad de Rosario',
     'license': 'AGPL-3',
-    'depends': [],
+    'depends': [
+        'tmc'
+    ],
     'data': [
         'views/municipal_menu.xml',
         'views/drei_views.xml',
