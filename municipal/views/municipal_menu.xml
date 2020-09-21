@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="tmc_menu_config_municipal"
+              name="Municipal"
+              parent="tmc.tmc_menu_config"
+              sequence="10" />
+
+</odoo>
